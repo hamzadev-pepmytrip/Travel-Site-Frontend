@@ -1,6 +1,7 @@
 import { Destination } from "./destination";
 
 export interface Package {
+id: number;
 title: string;
 description: string;
 slug: string;
