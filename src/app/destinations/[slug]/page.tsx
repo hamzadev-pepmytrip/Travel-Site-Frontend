@@ -19,7 +19,7 @@ export default async function DestinationPage({ params }: PageProps) {
     <div className="container mx-auto py-10">
       <h1 className="text-4xl font-bold mb-4">{destination.country_name}</h1>
 
-      <div className="w-full h-96 relative rounded overflow-hidden">
+      {/* <div className="w-full h-96 relative rounded overflow-hidden">
         <Image
           src={destination.image_url}
           alt={destination.country_name}
@@ -28,7 +28,7 @@ export default async function DestinationPage({ params }: PageProps) {
           className="rounded"
           priority
         />
-      </div>
+      </div> */}
 
       <p className="mt-4 text-lg">{destination.description}</p>
     </div>

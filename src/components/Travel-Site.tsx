@@ -67,16 +67,16 @@ export default function TravelLanding() {
             </div>
 
             <Link
-              href="#experiences"
+              href="/packages"
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
-              Experiences
+              Packages
             </Link>
             <Link
-              href="#about"
+              href="/visa"
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
-              About
+              Visa
             </Link>
             <Link
               href="#contact"
@@ -128,16 +128,16 @@ export default function TravelLanding() {
                 </ul>
               </div>
               <Link
-                href="#experiences"
+                href="/packages"
                 className="block text-gray-700 hover:text-blue-600"
               >
-                Experiences
+                Packages
               </Link>
               <Link
-                href="#about"
+                href="/visa"
                 className="block text-gray-700 hover:text-blue-600"
               >
-                About
+                Visa
               </Link>
               <Link
                 href="#contact"

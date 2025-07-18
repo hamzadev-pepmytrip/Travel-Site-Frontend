@@ -6,7 +6,6 @@ title: string;
 description: string;
 slug: string;
 price: number;
-image_url: string;
 duration_days: number;
 rating: number;
 on_deal: boolean;
